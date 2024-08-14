@@ -1,0 +1,7 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+<% if @task.completed  %>
+  <i class="fa-regular fa-square-check"></i>
+<% else %>
+  <i class="fa-regular fa-square"></i>
+<% end %>
